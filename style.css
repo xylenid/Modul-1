@@ -1,0 +1,163 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Section */
+header {
+  background-color: #1c1c1c;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 2000px; 
+  margin: auto; 
+  width: 100%;
+}
+
+.logo {
+  width: 200px; 
+}
+
+nav {
+  flex-grow: 1; 
+  text-align: center; 
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center; 
+  gap: 60px; 
+  font-style: co;
+  padding: 0; 
+}
+
+.menu li a {
+  color: #EBD4CB;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Main Section */
+main {
+  margin-top: 0px;
+}
+
+section#home {
+  display: flex;
+  align-items: center;
+  padding: 402px;
+  background: url('asset/background-landingpage.png') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+}
+
+.home-image {
+  width: 600px;
+  height: auto;
+}
+
+.kolom {
+  max-width: 100%;
+}
+
+.kolom h2 {
+  font-size: 36px;
+  color: #EBD4CB;
+  font-family: 'Playfair Display';
+}
+
+.kolom .deskripsi {
+  max-width: 100px;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 20px;
+  color: #EBD4CB;
+  font-family: 'Rubik';
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1A090D; 
+  color: white;               
+  text-decoration: none;     
+  border-radius: 5px;         
+  font-size: 16px;           
+  font-weight: bold;         
+  transition: background-color 0.3s ease; 
+  margin: 15px auto;
+}
+
+.btn:hover {
+  background-color: #EBD4CB;  
+}
+
+
+/* Features Section */
+.features {
+  background-color: rgba(73, 64, 64, 0.5);
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 40px 0;
+}
+
+.feature {
+  background-color: #f4f4f4; 
+  padding: 20px;
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  flex: 1; 
+  text-align: center;
+  margin: 0 10px; 
+}
+
+.feature h3 {
+  margin-bottom: 15px;
+  font-family: 'Playfair Display';
+  color: #890620;
+  font-size: 25px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #333;
+  font-family: 'Rubik';
+  font-size: 20px;
+}
+
+
+/* Footer Section */
+footer {
+  background-color: #1c1c1c;
+  color: #EBD4CB;
+  text-align: center;
+  padding: 5px;
+}
+
+footer h3 {
+  margin: 10px 0;
+}
+
+/* Copyright Section */
+#copyright {
+  background-color: #333;
+  color: #EBD4CB;
+  text-align: center;
+  padding: 10px 0;
+}
